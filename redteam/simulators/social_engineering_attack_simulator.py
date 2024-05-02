@@ -2,12 +2,12 @@
 import json
 from datetime import datetime
 
-from epiphany.agents.human_agent import HumanAgent
-from epiphany.evaluators.answer_relevance import AnswerRelevance
-from epiphany.evaluators.context_relevance import ContextRelevance
-from epiphany.evaluators.faithfulness import Faithfulness
-from epiphany.generators.questions.conversational_generator import ConversationalGenerator
-from epiphany.generators.questions.social_engineering_attack_question_generator import (
+from redteam.agents.human_agent import HumanAgent
+from redteam.evaluators.answer_relevance import AnswerRelevance
+from redteam.evaluators.context_relevance import ContextRelevance
+from redteam.evaluators.faithfulness import Faithfulness
+from redteam.generators.questions.conversational_generator import ConversationalGenerator
+from redteam.generators.questions.social_engineering_attack_question_generator import (
     SocialEngineeringAttackQuestionGenerator,
 )
 

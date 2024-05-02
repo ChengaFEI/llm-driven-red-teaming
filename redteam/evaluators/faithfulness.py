@@ -1,5 +1,5 @@
-from epiphany.evaluators.metric import Metric
-from epiphany.evaluators.open_ai_completion import OpenAICompletion
+from redteam.evaluators.metric import Metric
+from redteam.evaluators.open_ai_completion import OpenAICompletion
 
 
 class FewShotExampleFaithfulness:
