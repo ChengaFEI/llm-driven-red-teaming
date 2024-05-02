@@ -79,6 +79,24 @@ The project simulates various red-teaming strategies to evaluate the robustness 
 ## Project Structure
 
 ```sh
+.
+├── LICENSE
+├── README.md
+├── examples
+├── images
+├── poetry.lock
+├── pyproject.toml
+├── redteam  # Main package
+│   ├── __init__.py
+│   ├── agents  # Agents that interact with the target LLM
+│   ├── evaluators
+│   ├── generators
+│   ├── llms  # Large Language Models
+│   └── simulators
+├── references.md
+├── simulator_mistral.py
+├── simulator_rag.py
+└── tests
 ```
 
 ## Built With
